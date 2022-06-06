@@ -1,12 +1,15 @@
 import { createContext, useContext } from 'react';
-import { ICurrentUser, TypeProvider } from '../types';
 
+export type UserType = {
+    name: string;
+    email: string;
+    avatarUrl: string
+}
 
 interface AuthContextType {
-    user: ICurrentUser;
-    signin: (type: TypeProvider, callback: VoidFunction) => void;
+    user: UserType;
+    signin: (newUser: UserType, callback: VoidFunction) => void;
     signout: (callback: VoidFunction) => void;
-    setCurrentUser: (user: ICurrentUser) => void;
 }
 
 const AuthContext = createContext<AuthContextType>(null!);
