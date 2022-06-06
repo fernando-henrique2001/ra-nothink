@@ -46,8 +46,8 @@ Vamos criar um sistema que deve permitir que o usuário crie snippets de código
 ✅ Iniciar boilerplate com React e fazer ajustes.\
 ✅ Configurar Firebase e Firestore.\
 ✅ Configurar deploy na vercel.\
-⬜️ Implementar sistema de rotas usando `react-router-dom.`\
-⬜️ Implementar sistema de Autenticação usando `conxtex api`.
+✅ Implementar sistema de rotas usando `react-router-dom.`\
+✅ Implementar sistema de Autenticação usando `conxtex api`.
 
 <br>
 
