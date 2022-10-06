@@ -15,7 +15,7 @@ function App() {
             <Route path='/'>
               <Route index element={<LoginScreen />} />
               <Route path='/login' element={<LoginScreen />} />
-              <Route path="DASHBOARD" element={<Layout />}>
+              <Route path="/dashboard" element={<Layout />}>
                 <Route index element={<DashBoardScreen />} />
                 <Route path="liked" />
               </Route>
